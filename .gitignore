@@ -2,14 +2,64 @@
 Thumbs.db
 Desktop.ini
 .DS_Store
+ehthumbs.db
+$RECYCLE.BIN/
 
 # Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
 # Environment files
 .env
 .env.*
+!.env.example
+!.env.sample
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Build output
+dist/
+build/
+out/
+target/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache and temporary files
+.cache/
+.parcel-cache/
+.turbo/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Local databases and archives
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.rar
+*.7z
